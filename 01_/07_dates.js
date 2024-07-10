@@ -38,7 +38,9 @@ console.log(newDate.getDay());
 
 // `${newDate.getDay()} and the time `, to give date in an sting
 
-newDate.toLocaleString('default'// inerternationlization, in string format, { // you define an object in it
+newDate.toLocaleString('default'// inerternationlization, in string format
+    , { 
+        // you define an object in it
     // add properties to further customize the date
     weekday: "long",
     
